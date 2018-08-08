@@ -7,7 +7,9 @@ The CLI tool to download weather history information from meta weather api (http
 
 The solution can be deployed with usual python3 dev tools and should have virtualenv installed. By running the following command from the solution directory will create the virtualenv and install dependencies. The shebang line can be adjusted according to the distro used for deployment.
 
-```$ source setup.sh```
+```
+$ source setup.sh
+```
 
 
 More details about the package dependencies are in ```requirements.txt```
@@ -17,7 +19,9 @@ More details about the package dependencies are in ```requirements.txt```
 
 It contains two tools, ```solution01.py``` is to download historical weather informatio based on the names of the cities. The following command can be used to run the tool while environment is set. Default values are assumed when parameters are not set.
 
-```(renv) $ python solution01.py --cities='london berlin paris amsterdam' -o download_dir```
+```
+(renv) $ python solution01.py --cities='london berlin paris amsterdam' -o download_dir
+```
 
 
 Here, the ```-o``` or ```--output``` option sets the directory name where the weather information would be downloaded.
@@ -25,20 +29,27 @@ Here, the ```-o``` or ```--output``` option sets the directory name where the we
 
 The second solution ```solution02.py``` takes 'years' range as parameters and downloads weather information for each year for Rio and London and saves the temperature differences for all possible years. The following command can be used,
 
-```(renv) $ python solution02.py 2014 2018 --output=weatherinfo```
+```
+(renv) $ python solution02.py 2014 2018 --output=weatherinfo
+```
 
 
 The first two arguments specify the range of years, and the ```--output``` option can be used to specify a directory. Default values are assumed when parameters are not set. To view the more details on usage the following command can be used,
 
 
-```(renv) $ python solution01.py --help```
+```
+(renv) $ python solution01.py --help
+```
 
 
-```(renv) $ python solution02.py --help```
+```
+(renv) $ python solution02.py --help
+```
 
 
 
 ### Setup a cronjob
+-------------------
 
 To setup a cronjob the following line can be used to run it silently with a 4 hour period,
 
@@ -54,8 +65,10 @@ The ```<absolute_path>``` should be replaced with absolute path based on deploym
 
 
 ### Contact
+-----------
 
 Abdullah Al Zakir Hossain
+
 Email: aazhbd@conveylive.com, Phone: +49 17691442004
 
 
