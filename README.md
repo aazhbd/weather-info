@@ -1,9 +1,11 @@
 # Weather history collector
+---------------------------
 
 The CLI tool to download weather history information from meta weather api (https://www.metaweather.com/api/)
 
 
 ### System requirements
+-----------------------
 
 The solution can be deployed with usual python3 dev tools and should have virtualenv installed. By running the following command from the solution directory will create the virtualenv and install dependencies. The shebang line can be adjusted according to the distro used for deployment.
 
@@ -16,6 +18,7 @@ More details about the package dependencies are in ```requirements.txt```
 
 
 ### Usage
+----------
 
 It contains two tools, ```solution01.py``` is to download historical weather informatio based on the names of the cities. The following command can be used to run the tool while environment is set. Default values are assumed when parameters are not set.
 
