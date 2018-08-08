@@ -12,8 +12,6 @@ def get_location_forecast(location):
     )
     loc_woeid = loc_resp.json()[0]["woeid"]
 
-    print("City: " + str(location) + " : " + str(loc_woeid))
-
     forecast_resp = requests.get(
         "https://www.metaweather.com/api/location/%s/" % loc_woeid
     )
