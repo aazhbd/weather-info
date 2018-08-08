@@ -43,7 +43,6 @@ The ```<absolute_path>``` should be replaced with absolute path based on deploym
 ### Contact
 
 Abdullah Al Zakir Hossain
-
-- aazhbd@conveylive.com
+Email: aazhbd@conveylive.com, Phone: +49 17691442004
 
 
