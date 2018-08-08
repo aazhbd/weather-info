@@ -1,0 +1,17 @@
+*.sqlite3
+*.db
+*.pyc
+*.mo
+.vscode
+.idea
+db.sqlite3
+renv/
+env/
+
+# Mac
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
