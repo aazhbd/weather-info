@@ -1,5 +1,4 @@
 # Weather history collector
----------------------------
 
 The CLI tool to download weather history information from meta weather api (https://www.metaweather.com/api/)
 
@@ -56,10 +55,14 @@ The first two arguments specify the range of years, and the ```--output``` optio
 
 To setup a cronjob the following line can be used to run it silently with a 4 hour period,
 
-```0 */4 * * * <absolute_path>/renv/bin/python <absolute_path>/solution01.py --cities='london berlin paris amsterdam' -o download_dir  > /dev/null 2>&1```
+```
+0 */4 * * * <absolute_path>/renv/bin/python <absolute_path>/solution01.py --cities='london berlin paris amsterdam' -o download_dir  > /dev/null 2>&1
+```
 
 
-```0 */4 * * * <absolute_path>/renv/bin/python <absolute_path>/solution02.py 2014 2018 --output=weatherinfo  > /dev/null 2>&1```
+```
+0 */4 * * * <absolute_path>/renv/bin/python <absolute_path>/solution02.py 2014 2018 --output=weatherinfo  > /dev/null 2>&1
+```
 
 
 The ```<absolute_path>``` should be replaced with absolute path based on deployment location.
